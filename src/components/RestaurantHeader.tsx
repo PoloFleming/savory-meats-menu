@@ -12,9 +12,9 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
       <div className="flex flex-col items-center justify-center">
         <div className="mb-4">
           <img 
-            src="/lovable-uploads/0aac45ce-f81c-4a9b-8c2f-89cb29c97da2.png" 
+            src="/lovable-uploads/2d6be7c8-ac4d-45ef-8b49-2f549d60ca64.png" 
             alt="Ristorante Macelleria da Pasqualino Logo" 
-            className="h-48 md:h-64 mx-auto"
+            className="h-64 md:h-80 mx-auto"
           />
         </div>
         <div className="mt-4">
