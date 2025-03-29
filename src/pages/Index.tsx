@@ -32,32 +32,24 @@ const Index = () => {
               description="Condite con sale rosa, pepe e olio extravergine"
             />
             <MenuItem
-              title="CARPACCIO"
-              price="23.00"
-              description="Carne cruda condita con sedano, prezzemolo, limone, rucola, olio di oliva, pepe e grana"
+              title="DISOSSATA DI SCOTTONA"
+              price="4.30"
+              description="minimo 6 etti/ 8 etti (prezzo all'etto)"
             />
             <MenuItem
-              title="BRESAOLA"
-              price="23.00"
-              description="Condita con rucola, grana, pomodorini, limone, olio di oliva, sale e pepe"
+              title="FIORENTINA"
+              price="4.30"
+              description="minimo 1 Kg / 2 Kg (prezzo all'etto)"
             />
             <MenuItem
-              title="Tris assaggio polpette fritte al sugo e bracioline"
+              title="TAGLIATA DI LATTONE RUCOLA E GRANA"
+              price="4.30"
+              description="minimo 600 / 800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="Mr.BEAN"
               price="18.00"
-            />
-            <MenuItem
-              title="Polpette fritte"
-              price="8.00"
-              description="Consigliamo polpette fritte durante l'attesa"
-            />
-            <MenuItem
-              title="Polpette al sugo"
-              price="9.00"
-              description="Consigliamo polpette al sugo durante l'attesa"
-            />
-            <MenuItem
-              title="BRACIOLINE PICCANTI AL POMODORO"
-              price="15.00"
+              description="Cotoletta di lattone con cascata di patate fritte"
             />
           </MenuCategory>
 
