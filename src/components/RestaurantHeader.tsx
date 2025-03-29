@@ -34,6 +34,11 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
           />
         </div>
         <div className="flex flex-col items-center md:items-end justify-center md:mt-8">
+          {/* Restaurant name */}
+          <div className="text-center md:text-right">
+            <h1 className="restaurant-name">RISTORANTE<br />MACELLERIA</h1>
+            <h2 className="restaurant-subtitle">da Pasqualino</h2>
+          </div>
           <div className="mt-4">
             <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10">
               <p className="restaurant-tagline z-10 relative font-bold tracking-wider text-terracotta">DEGUSTAZIONI DI CARNI ALLA BRACE</p>
