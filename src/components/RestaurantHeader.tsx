@@ -1,6 +1,4 @@
-
 import { cn } from "@/lib/utils";
-import { Flame } from "lucide-react";
 
 interface RestaurantHeaderProps {
   className?: string;
@@ -14,14 +12,6 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pasqualino-cream via-amber/20 to-terracotta/30 opacity-80" />
         <div className="absolute top-0 left-0 w-1/3 h-full bg-olive/10 rounded-full blur-3xl -translate-x-1/2" />
         <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-amber/10 rounded-full blur-3xl translate-x-1/4" />
-      </div>
-
-      {/* Decorative elements */}
-      <div className="absolute top-4 left-4 w-20 h-20 md:w-32 md:h-32 text-pasqualino-red opacity-10">
-        <Flame className="w-full h-full" />
-      </div>
-      <div className="absolute bottom-4 right-4 w-20 h-20 md:w-32 md:h-32 text-olive opacity-10 transform rotate-45">
-        <Flame className="w-full h-full" />
       </div>
 
       {/* Main content with logo on left */}
@@ -59,4 +49,3 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
     </header>
   );
 };
-
