@@ -1,3 +1,4 @@
+
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -89,7 +90,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-          <MenuCategory title="Specialità allo Spiedo">
+          <MenuCategory title="Carne alla Brace">
             <MenuItem
               title="SPIEDO MISTO"
               price="17.00"
