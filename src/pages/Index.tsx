@@ -1,4 +1,3 @@
-
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -21,7 +20,7 @@ const Index = () => {
         <MenuHeader />
 
         <div className="relative py-6">
-          <MenuCategory title="Antipasti">
+          <MenuCategory title="Specialità della Casa">
             <MenuItem
               title="MONTE BIANCO"
               price="4.30"
