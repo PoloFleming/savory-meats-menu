@@ -371,7 +371,7 @@ const Index = () => {
               <p className="text-muted-foreground">
                 Via del Mare, 42<br />
                 Torre Santa Sabina, Carovigno (BR)<br />
-                Tel: +39 123 456 7890
+                Tel: +39 338/7380070
               </p>
             </div>
           </div>
