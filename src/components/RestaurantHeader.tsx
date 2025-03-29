@@ -38,11 +38,11 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
         </div>
       </div>
       
-      {/* Grilling steak image below header */}
+      {/* New grilled steak image below header */}
       <div className="relative mt-6 w-full overflow-hidden h-24 md:h-32">
         <img 
-          src="/lovable-uploads/2555073b-5f24-4f60-a7ba-9f751b4fabac.png" 
-          alt="Grilled steak on fire" 
+          src="/lovable-uploads/114d5a7f-16bf-47e2-9661-4b86673bca9e.png" 
+          alt="Grilled steak with lemon" 
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-pasqualino-cream to-transparent opacity-70"></div>
