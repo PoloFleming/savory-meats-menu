@@ -24,18 +24,27 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
         <Flame className="w-full h-full" />
       </div>
 
-      {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center">
-        <div className="mb-4">
+      {/* Main content with logo on left */}
+      <div className="relative z-10 flex flex-col md:flex-row items-center md:items-start justify-between">
+        <div className="mb-4 md:mb-0 md:mr-8">
           <img 
-            src="/lovable-uploads/2d6be7c8-ac4d-45ef-8b49-2f549d60ca64.png" 
-            alt="Ristorante Macelleria da Pasqualino Logo" 
-            className="h-64 md:h-80 mx-auto drop-shadow-lg"
+            src="/lovable-uploads/47f8dfc9-0796-4485-afab-aa44b5d2151a.png" 
+            alt="Bull Logo" 
+            className="h-48 md:h-64 drop-shadow-lg"
           />
         </div>
-        <div className="mt-4">
-          <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10">
-            <p className="restaurant-tagline z-10 relative font-bold tracking-wider text-terracotta">DEGUSTAZIONI DI CARNI ALLA BRACE</p>
+        <div className="flex flex-col items-center md:items-end justify-center md:mt-8">
+          <div>
+            <img 
+              src="/lovable-uploads/2d6be7c8-ac4d-45ef-8b49-2f549d60ca64.png" 
+              alt="Ristorante Macelleria da Pasqualino Logo" 
+              className="h-48 md:h-64 drop-shadow-lg"
+            />
+          </div>
+          <div className="mt-4">
+            <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10">
+              <p className="restaurant-tagline z-10 relative font-bold tracking-wider text-terracotta">DEGUSTAZIONI DI CARNI ALLA BRACE</p>
+            </div>
           </div>
         </div>
       </div>
@@ -52,4 +61,3 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
     </header>
   );
 };
-
