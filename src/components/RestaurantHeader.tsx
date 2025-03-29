@@ -26,7 +26,7 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
 
       {/* Main content */}
       <div className="relative z-10 flex flex-col items-center justify-center">
-        <div className="mb-4 transform hover:scale-105 transition-transform duration-300">
+        <div className="mb-4">
           <img 
             src="/lovable-uploads/2d6be7c8-ac4d-45ef-8b49-2f549d60ca64.png" 
             alt="Ristorante Macelleria da Pasqualino Logo" 
@@ -43,7 +43,7 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
       {/* Fire image below header */}
       <div className="relative mt-6 w-full overflow-hidden h-24 md:h-32">
         <img 
-          src="https://images.unsplash.com/photo-1529589789467-4a12ccb8e5ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+          src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
           alt="Fire grill" 
           className="w-full h-full object-cover object-center"
         />
