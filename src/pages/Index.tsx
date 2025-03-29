@@ -23,19 +23,42 @@ const Index = () => {
         <div className="relative py-6">
           <MenuCategory title="Antipasti">
             <MenuItem
-              title="Antipasto Misto della Casa"
-              price="14.00"
-              description="Selezione di salumi tipici pugliesi, formaggi locali e verdure grigliate"
+              title="MONTE BIANCO"
+              price="4.30"
+              description="Lattone con rucola e grana - min. Kg 1,00"
             />
             <MenuItem
-              title="Burrata con Prosciutto di Parma"
-              price="12.00"
-              description="Cremosa burrata pugliese servita con prosciutto di Parma stagionato 24 mesi"
+              title="NUVOLE DI FILETTO DI LATTONE"
+              price="33.00"
+              description="Condite con sale rosa, pepe e olio extravergine"
             />
             <MenuItem
-              title="Polpette al Sugo"
-              price="10.00"
-              description="Polpette di carne fatte in casa con sugo di pomodoro fresco e basilico"
+              title="CARPACCIO"
+              price="23.00"
+              description="Carne cruda condita con sedano, prezzemolo, limone, rucola, olio di oliva, pepe e grana"
+            />
+            <MenuItem
+              title="BRESAOLA"
+              price="23.00"
+              description="Condita con rucola, grana, pomodorini, limone, olio di oliva, sale e pepe"
+            />
+            <MenuItem
+              title="Tris assaggio polpette fritte al sugo e bracioline"
+              price="18.00"
+            />
+            <MenuItem
+              title="Polpette fritte"
+              price="8.00"
+              description="Consigliamo polpette fritte durante l'attesa"
+            />
+            <MenuItem
+              title="Polpette al sugo"
+              price="9.00"
+              description="Consigliamo polpette al sugo durante l'attesa"
+            />
+            <MenuItem
+              title="BRACIOLINE PICCANTI AL POMODORO"
+              price="15.00"
             />
           </MenuCategory>
 
@@ -45,61 +68,104 @@ const Index = () => {
             </div>
 
             <MenuItem
-              title="Costata di Manzo (400g)"
-              price="25.00"
-              description="Costata di manzo alla griglia con rosmarino e sale grosso, servita con patate al forno"
+              title="FIORENTINA"
+              price="4.30"
+              description="da kg 1 a kg 2 (prezzo all'etto)"
             />
             <MenuItem
-              title="Agnello Scottadito"
-              price="22.00"
-              description="Costolette di agnello marinate e grigliate, servite con verdure di stagione"
+              title="COSTATA DI VITELLO"
+              price="4.30"
+              description="minimo 600 / 800 g (prezzo all'etto)"
             />
             <MenuItem
-              title="Bombette Pugliesi"
+              title="TAGLIATA DI MANZO RUCOLA E GRANA"
+              price="4.30"
+              description="600 / 800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="TAGLIATA DI LATTONE RUCOLA E GRANA"
+              price="4.30"
+              description="minimo 600 / 800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="DISOSSATA DI SCOTTONA"
+              price="4.30"
+              description="minimo 6 etti/ 8 etti (prezzo all'etto)"
+            />
+            <MenuItem
+              title="CAPICOLLO DI CINGHIALE SENZA OSSO"
+              price="4.30"
+              description="minimo 600/800g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="AGNELLO"
+              price="28.00"
+            />
+            <MenuItem
+              title="CASTRATO"
+              price="4.30"
+              description="minimo 600 / 800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="FILETTO"
+              price="30.00"
+            />
+            <MenuItem
+              title="Mr.BEAN"
               price="18.00"
-              description="Involtini di carne ripieni di pancetta, formaggio e prezzemolo"
-            />
-            <MenuItem
-              title="Braciole di Maiale"
-              price="16.00"
-              description="Braciole di maiale marinate con erbe aromatiche e grigliate alla perfezione"
-            />
-            <MenuItem
-              title="Misto Griglia (per 2 persone)"
-              price="42.00"
-              description="Selezione del macellaio con bistecca, agnello, salsiccia e bombette"
-            />
-            <MenuItem
-              title="Bistecca alla Fiorentina (800g)"
-              price="45.00"
-              description="Autentica bistecca di razza Chianina cotta alla brace"
-            />
-            <MenuItem
-              title="Salsiccia Pugliese"
-              price="14.00"
-              description="Salsiccia fresca alla griglia con finocchietto selvatico e peperoncino"
+              description="Cotoletta di lattone con cascata di patate fritte"
             />
           </MenuCategory>
 
-          <MenuCategory title="Primi Piatti">
+          <MenuCategory title="Specialità allo Spiedo">
             <MenuItem
-              title="Orecchiette alle Cime di Rapa"
-              price="13.00"
-              description="Pasta fatta in casa condita con cime di rapa, acciughe e peperoncino"
+              title="SPIEDO MISTO"
+              price="17.00"
+              description="Salsiccia, bombette, pezzetti misti, turcinieddi"
             />
             <MenuItem
-              title="Cavatelli al Ragù di Carne"
-              price="14.00"
-              description="Pasta fresca condita con ragù di carne cotto lentamente"
+              title="SPIEDO DI SALSICCIA MISTA"
+              price="17.00"
+              description="Bovino, suino, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
             />
             <MenuItem
-              title="Spaghetti ai Frutti di Mare"
-              price="16.00"
-              description="Spaghetti con frutti di mare freschi, aglio, prezzemolo e pomodorini"
+              title="SPIEDO DI BOMBETTE"
+              price="17.00"
+              description="Prosciutto, carne macinata, bovino, suino, mozzarella, grana, aromi naturali, pane grattugiato"
+            />
+            <MenuItem
+              title="SPIEDO DI SALSICCIA A PUNTA DI COLTELLO"
+              price="17.00"
+              description="Carne bovina e suina, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+            />
+            <MenuItem
+              title="SPIEDO DI BOMBETTE DI CINGHIALE"
+              price="17.00"
+              description="Carne bovina e suina, pezzettini arrotolati con pancetta, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+            />
+            <MenuItem
+              title="SPIEDO DI SALSICCIA PICCANTE"
+              price="17.00"
+              description="Carne bovina e suina, sale, pepe, aglio, peperoncino, aromi naturali, vino bianco e insaporitori E300"
+            />
+            <MenuItem
+              title="SPIEDO DI TURCINIEDDI"
+              price="17.00"
+              description="Fegato, cuore e polmone di agnello, rete, budello, sale, pepe, aglio, aromi naturali, vino bianco, insaporitori E300 e prezzemolo"
+            />
+            <MenuItem
+              title="SPIEDO DI POLPA DI CASTRATO"
+              price="17.00"
+              description="Pezzetti di castrato, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
             />
           </MenuCategory>
 
           <MenuCategory title="Contorni">
+            <MenuItem
+              title="POLLO E PATATE"
+              price="14.00"
+              description="Solo nel periodo estivo"
+            />
             <MenuItem
               title="Verdure Grigliate"
               price="6.00"
@@ -114,24 +180,6 @@ const Index = () => {
               title="Insalata Mista"
               price="5.00"
               description="Insalata di stagione con pomodorini e olive"
-            />
-          </MenuCategory>
-
-          <MenuCategory title="Dolci">
-            <MenuItem
-              title="Tiramisù della Casa"
-              price="6.00"
-              description="Classico tiramisù fatto in casa"
-            />
-            <MenuItem
-              title="Panna Cotta"
-              price="6.00"
-              description="Panna cotta con coulis di frutti di bosco"
-            />
-            <MenuItem
-              title="Pasticciotto Leccese"
-              price="5.00"
-              description="Dolce tipico pugliese con crema pasticcera"
             />
           </MenuCategory>
 
