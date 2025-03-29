@@ -63,7 +63,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our Italian restaurant
+				// Custom colors from the logo
+				"pasqualino-red": "#D92121",
+				"pasqualino-cream": "#FCF3D2",
+				"pasqualino-black": "#000000",
+				// Previous custom colors
 				"terracotta": "#E07A5F",
 				"olive": "#606C38",
 				"cream": "#FEF7EC",
@@ -100,6 +104,8 @@ export default {
 			fontFamily: {
 				'serif': ['Cormorant Garamond', 'serif'],
 				'sans': ['Montserrat', 'sans-serif'],
+				'logo': ['Anton', 'sans-serif'],
+				'script': ['Dancing Script', 'cursive'],
 			},
 			backgroundImage: {
 				'grill-texture': "url('https://images.unsplash.com/photo-1529589789467-4a12ccb8e5ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
