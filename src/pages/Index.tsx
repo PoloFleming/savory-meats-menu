@@ -2,7 +2,7 @@ import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
 import { RestaurantHeader } from "@/components/RestaurantHeader";
-import { Beef, Coffee, Dessert, Fish, Pizza, Salad, Sandwich, Utensils, Wine } from "lucide-react";
+import { Beef, Coffee, Fish, Utensils, Wine } from "lucide-react";
 
 const Index = () => {
   return (
@@ -59,52 +59,33 @@ const Index = () => {
             </div>
 
             <MenuItem
-              title="FIORENTINA"
-              price="4.30"
-              description="da kg 1 a kg 2 (prezzo all'etto)"
+              title="TRIS ASSAGGIO"
+              price="15.00"
+              description="Polpette fritte al sugo e bracioline"
             />
             <MenuItem
-              title="COSTATA DI VITELLO"
-              price="4.30"
-              description="minimo 600 / 800 g (prezzo all'etto)"
+              title="POLPETTE FRITTE"
+              price="8.00"
+              description="Consigliamo polpette fritte durante l'attesa"
             />
             <MenuItem
-              title="TAGLIATA DI MANZO RUCOLA E GRANA"
-              price="4.30"
-              description="600 / 800 g (prezzo all'etto)"
+              title="POLPETTE AL SUGO"
+              price="9.00"
+              description="Consigliamo polpette al sugo durante l'attesa"
             />
             <MenuItem
-              title="TAGLIATA DI LATTONE RUCOLA E GRANA"
-              price="4.30"
-              description="minimo 600 / 800 g (prezzo all'etto)"
+              title="BRACIOLINE PICCANTI AL POMODORO"
+              price="12.00"
             />
             <MenuItem
-              title="DISOSSATA DI SCOTTONA"
-              price="4.30"
-              description="minimo 6 etti/ 8 etti (prezzo all'etto)"
+              title="CARPACCIO"
+              price="14.00"
+              description="Carne cruda condita con sedano, prezzemolo, limone, rucola, olio di oliva, pepe e grana"
             />
             <MenuItem
-              title="CAPICOLLO DI CINGHIALE SENZA OSSO"
-              price="4.30"
-              description="minimo 600/800g (prezzo all'etto)"
-            />
-            <MenuItem
-              title="AGNELLO"
-              price="28.00"
-            />
-            <MenuItem
-              title="CASTRATO"
-              price="4.30"
-              description="minimo 600 / 800 g (prezzo all'etto)"
-            />
-            <MenuItem
-              title="FILETTO"
-              price="30.00"
-            />
-            <MenuItem
-              title="Mr.BEAN"
-              price="18.00"
-              description="Cotoletta di lattone con cascata di patate fritte"
+              title="BRESAOLA"
+              price="13.00"
+              description="Condita con rucola, grana, pomodorini, limone, olio di oliva, sale e pepe"
             />
           </MenuCategory>
 
