@@ -2,25 +2,31 @@ import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
 import { RestaurantHeader } from "@/components/RestaurantHeader";
+import { LanguageSelector } from "@/components/LanguageSelector";
+import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "@/translations";
 import { Beer, Fish, GlassWater, Utensils, Wine, CupSoda, Beef } from "lucide-react";
 
 const Index = () => {
+  const { language } = useLanguage();
+  const t = useTranslation(language);
+
   return (
     <div className="min-h-screen bg-cream">
       <div className="container max-w-4xl px-4 mx-auto">
+        <LanguageSelector />
         <RestaurantHeader />
         
         <div className="mt-4 md:mt-8 text-center">
           <p className="text-muted-foreground italic max-w-2xl mx-auto">
-            Nel cuore di Torre Santa Sabina, il nostro ristorante vi offre un'esperienza 
-            gastronomica autentica, dove la tradizione pugliese incontra la passione per la carne alla griglia.
+            {t("restaurantDescription")}
           </p>
         </div>
 
         <MenuHeader />
 
         <div className="relative py-6">
-          <MenuCategory title="Specialità della Casa">
+          <MenuCategory title={t("specialties")}>
             <MenuItem
               title="MONTE BIANCO"
               price="4.30"
@@ -53,7 +59,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-          <MenuCategory title="Antipasti" className="bg-muted py-8 px-4 rounded-lg">
+          <MenuCategory title={t("appetizers")} className="bg-muted py-8 px-4 rounded-lg">
             <div className="flex justify-center mb-6">
               <Beef size={32} className="text-terracotta" />
             </div>
@@ -89,7 +95,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-          <MenuCategory title="Carne alla Brace">
+          <MenuCategory title={t("grillMeat")}>
             <MenuItem
               title="SPIEDO MISTO"
               price="17.00"
@@ -176,7 +182,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-          <MenuCategory title="Contorni">
+          <MenuCategory title={t("sideDishes")}>
             <MenuItem
               title="INSALATA VERDE"
               price="5.00"
@@ -213,11 +219,11 @@ const Index = () => {
             </div>
           </MenuCategory>
 
-          <MenuCategory title="Bevande">
+          <MenuCategory title={t("drinks")}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                  <Wine size={20} className="mr-2" /> Vini
+                  <Wine size={20} className="mr-2" /> {t("wines")}
                 </h3>
                 <MenuItem
                   title="Vino locale in caraffa (500 ml)"
@@ -231,7 +237,7 @@ const Index = () => {
               
               <div>
                 <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                  <Beer size={20} className="mr-2" /> Birre
+                  <Beer size={20} className="mr-2" /> {t("beers")}
                 </h3>
                 <MenuItem
                   title="Birra Dreher (33 cl)"
@@ -255,7 +261,7 @@ const Index = () => {
             <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                  <CupSoda size={20} className="mr-2" /> Bevande Analcoliche
+                  <CupSoda size={20} className="mr-2" /> {t("softDrinks")}
                 </h3>
                 <MenuItem
                   title="Aranciata (33 cl)"
@@ -277,7 +283,7 @@ const Index = () => {
               
               <div>
                 <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                  <GlassWater size={20} className="mr-2" /> Acqua
+                  <GlassWater size={20} className="mr-2" /> {t("water")}
                 </h3>
                 <MenuItem
                   title="Acqua (0,5 lt)"
@@ -292,7 +298,7 @@ const Index = () => {
 
             <div className="mt-6">
               <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <Utensils size={20} className="mr-2" /> Dessert
+                <Utensils size={20} className="mr-2" /> {t("desserts")}
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <MenuItem
@@ -348,7 +354,7 @@ const Index = () => {
                   price="3.00"
                 />
                 <MenuItem
-                  title="COPERTO E PANE"
+                  title={t("coverCharge")}
                   price="2.00"
                 />
               </div>
@@ -357,16 +363,15 @@ const Index = () => {
 
           <div className="mt-12 py-8 border-t border-muted">
             <div className="text-center">
-              <h2 className="font-serif text-2xl text-terracotta mb-2">Orari di Apertura</h2>
+              <h2 className="font-serif text-2xl text-terracotta mb-2">{t("openingHours")}</h2>
               <p className="text-muted-foreground">
-                Lunedì, Mercoledì, Giovedì, Venerdì, Sabato, Domenica<br />
-                12:30 - 14:30 | 19:30 - 22:30<br />
-                Martedì: Chiuso
+                {t("openingHoursDetail")}<br />
+                {t("closed")}
               </p>
             </div>
 
             <div className="text-center mt-6">
-              <h2 className="font-serif text-2xl text-terracotta mb-2">Dove Siamo</h2>
+              <h2 className="font-serif text-2xl text-terracotta mb-2">{t("location")}</h2>
               <p className="text-muted-foreground">
                 Via della Torre, 60<br />
                 Torre Santa Sabina, Carovigno (BR)<br />
