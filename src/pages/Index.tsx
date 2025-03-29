@@ -1,8 +1,9 @@
+
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
 import { RestaurantHeader } from "@/components/RestaurantHeader";
-import { Beer, Coffee, Fish, GlassWater, Utensils, Wine, CupSoda, Beef } from "lucide-react";
+import { Beer, Fish, GlassWater, Utensils, Wine, CupSoda, Beef } from "lucide-react";
 
 const Index = () => {
   return (
@@ -292,20 +293,64 @@ const Index = () => {
 
             <div className="mt-6">
               <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <Coffee size={20} className="mr-2" /> Caffè e Digestivi
+                <Utensils size={20} className="mr-2" /> Dessert
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <MenuItem
-                  title="Espresso"
-                  price="1.50"
-                />
-                <MenuItem
-                  title="Amaro del Capo"
+                  title="SORBETTO AL LIMONE"
                   price="4.00"
                 />
                 <MenuItem
-                  title="Limoncello"
-                  price="3.50"
+                  title="TARTUFO BIANCO"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="TARTUFO NERO"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="COPPA VANIGLIA E CIOCCOLATO"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="SPUMONE"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="TIRAMISU"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="TORTA ALLA CREMA"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="TORTA AL CIOCCOLATO"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="TORTA AL LIMONE"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="CREMA DI LIMONCELLO"
+                  price="2.00"
+                />
+                <MenuItem
+                  title="CREMA DI CAFFE"
+                  price="2.00"
+                />
+                <MenuItem
+                  title="AMARO"
+                  price="2.00"
+                />
+                <MenuItem
+                  title="GRAPPA"
+                  price="3.00"
+                />
+                <MenuItem
+                  title="COPERTO E PANE"
+                  price="2.00"
                 />
               </div>
             </div>
