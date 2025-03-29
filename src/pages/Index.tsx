@@ -1,4 +1,3 @@
-
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -360,9 +359,9 @@ const Index = () => {
             <div className="text-center">
               <h2 className="font-serif text-2xl text-terracotta mb-2">Orari di Apertura</h2>
               <p className="text-muted-foreground">
-                Da Martedì a Domenica<br />
+                Lunedì, Mercoledì, Giovedì, Venerdì, Sabato, Domenica<br />
                 12:30 - 14:30 | 19:30 - 22:30<br />
-                Lunedì: Chiuso
+                Martedì: Chiuso
               </p>
             </div>
 
