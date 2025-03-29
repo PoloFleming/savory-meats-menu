@@ -34,8 +34,8 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
           />
         </div>
         <div className="mt-4">
-          <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10 animate-pulse">
-            <p className="restaurant-tagline z-10 relative">DEGUSTAZIONI DI CARNI ALLA BRACE</p>
+          <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10">
+            <p className="restaurant-tagline z-10 relative font-bold tracking-wider text-terracotta">DEGUSTAZIONI DI CARNI ALLA BRACE</p>
           </div>
         </div>
       </div>
@@ -52,3 +52,4 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
     </header>
   );
 };
+
