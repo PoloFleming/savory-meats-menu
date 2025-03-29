@@ -1,4 +1,3 @@
-
 import { cn } from "@/lib/utils";
 
 interface RestaurantHeaderProps {
@@ -38,11 +37,11 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
         </div>
       </div>
       
-      {/* Fire image below header */}
+      {/* Meat image below header */}
       <div className="relative mt-6 w-full overflow-hidden h-24 md:h-32">
         <img 
-          src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-          alt="Fire grill" 
+          src="/lovable-uploads/47ca9851-f3de-4030-8486-ab4c7331e826.png" 
+          alt="Raw meat with fire" 
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-pasqualino-cream to-transparent opacity-70"></div>
