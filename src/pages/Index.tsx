@@ -369,7 +369,7 @@ const Index = () => {
             <div className="text-center mt-6">
               <h2 className="font-serif text-2xl text-terracotta mb-2">Dove Siamo</h2>
               <p className="text-muted-foreground">
-                Via del Mare, 42<br />
+                Via della Torre, 60<br />
                 Torre Santa Sabina, Carovigno (BR)<br />
                 Tel: +39 338/7380070
               </p>
