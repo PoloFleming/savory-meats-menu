@@ -1,4 +1,3 @@
-
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -179,24 +178,35 @@ const Index = () => {
 
           <MenuCategory title="Contorni">
             <MenuItem
-              title="POLLO E PATATE"
-              price="14.00"
-              description="Solo nel periodo estivo"
+              title="INSALATA VERDE"
+              price="5.00"
             />
             <MenuItem
-              title="Verdure Grigliate"
+              title="PATATE FRITTE-CHIPS CROCCANTI"
+              price="5.00"
+              description="FRESCHE *"
+            />
+            <MenuItem
+              title="PATATE FRITTE-STICK"
+              price="5.00"
+              description="FRESCHE *"
+            />
+            <MenuItem
+              title="PATATE AL FORNO"
+              price="5.00"
+            />
+            <MenuItem
+              title="POLPETTE FRITTE"
+              price="8.00"
+            />
+            <MenuItem
+              title="POLPETTE AL SUGO"
+              price="9.00"
+            />
+            <MenuItem
+              title="VERDURE GRIGLIATE"
               price="6.00"
-              description="Melanzane, zucchine, peperoni e radicchio alla griglia"
-            />
-            <MenuItem
-              title="Patate al Forno"
-              price="5.00"
-              description="Patate al forno con rosmarino e aglio"
-            />
-            <MenuItem
-              title="Insalata Mista"
-              price="5.00"
-              description="Insalata di stagione con pomodorini e olive"
+              description="peperoni, melanzane, zucchine"
             />
           </MenuCategory>
 
