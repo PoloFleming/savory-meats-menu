@@ -1,9 +1,8 @@
-
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
 import { RestaurantHeader } from "@/components/RestaurantHeader";
-import { Beer, Coffee, Fish, GlassWater, Utensils, Wine, CupSoda } from "lucide-react";
+import { Beer, Coffee, Fish, GlassWater, Utensils, Wine, CupSoda, Beef } from "lucide-react";
 
 const Index = () => {
   return (
