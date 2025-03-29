@@ -53,7 +53,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-          <MenuCategory title="Le Nostre Carni" className="bg-muted py-8 px-4 rounded-lg">
+          <MenuCategory title="Antipasti" className="bg-muted py-8 px-4 rounded-lg">
             <div className="flex justify-center mb-6">
               <Beef size={32} className="text-terracotta" />
             </div>
