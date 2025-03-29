@@ -39,6 +39,16 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
           </div>
         </div>
       </div>
+      
+      {/* Fire image below header */}
+      <div className="relative mt-6 w-full overflow-hidden h-24 md:h-32">
+        <img 
+          src="https://images.unsplash.com/photo-1529589789467-4a12ccb8e5ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+          alt="Fire grill" 
+          className="w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-pasqualino-cream to-transparent opacity-70"></div>
+      </div>
     </header>
   );
 };
