@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for our Italian restaurant
+				"terracotta": "#E07A5F",
+				"olive": "#606C38",
+				"cream": "#FEF7EC",
+				"wine": "#5F0F40",
+				"amber": "#BC6C25"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -89,6 +96,13 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'serif': ['Cormorant Garamond', 'serif'],
+				'sans': ['Montserrat', 'sans-serif'],
+			},
+			backgroundImage: {
+				'grill-texture': "url('https://images.unsplash.com/photo-1529589789467-4a12ccb8e5ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')",
 			}
 		}
 	},
