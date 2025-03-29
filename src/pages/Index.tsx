@@ -1,3 +1,4 @@
+
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -28,34 +29,34 @@ const Index = () => {
         <div className="relative py-6">
           <MenuCategory title={t("specialties")}>
             <MenuItem
-              title="MONTE BIANCO"
+              title={t("monteBianco")}
               price="4.30"
-              description="Lattone con rucola e grana - min. Kg 1,00"
+              description={t("monteBiancoDesc")}
             />
             <MenuItem
-              title="NUVOLE DI FILETTO DI LATTONE"
+              title={t("nuvoleDiFiletto")}
               price="33.00"
-              description="Condite con sale rosa, pepe e olio extravergine"
+              description={t("nuvoleDiFilettoDesc")}
             />
             <MenuItem
-              title="DISOSSATA DI SCOTTONA"
+              title={t("disossataDiScottona")}
               price="4.30"
-              description="minimo 6 etti/ 8 etti (prezzo all'etto)"
+              description={t("disossataDiScottonaDesc")}
             />
             <MenuItem
-              title="FIORENTINA"
+              title={t("fiorentina")}
               price="4.30"
-              description="minimo 1 Kg / 2 Kg (prezzo all'etto)"
+              description={t("fiorentinaDesc")}
             />
             <MenuItem
-              title="TAGLIATA DI LATTONE RUCOLA E GRANA"
+              title={t("tagliataDiLattone")}
               price="4.30"
-              description="minimo 600 / 800 g (prezzo all'etto)"
+              description={t("tagliataDiLattoneDesc")}
             />
             <MenuItem
-              title="Mr.BEAN"
+              title={t("mrBean")}
               price="18.00"
-              description="Cotoletta di lattone con cascata di patate fritte"
+              description={t("mrBeanDesc")}
             />
           </MenuCategory>
 
@@ -65,157 +66,163 @@ const Index = () => {
             </div>
 
             <MenuItem
-              title="TRIS ASSAGGIO"
+              title={t("trisAssaggio")}
               price="15.00"
-              description="Polpette fritte al sugo e bracioline"
+              description={t("trisAssaggioDesc")}
             />
             <MenuItem
-              title="POLPETTE FRITTE"
+              title={t("polpetteFritte")}
               price="8.00"
-              description="Consigliamo polpette fritte durante l'attesa"
+              description={t("polpetteFritteDesc")}
             />
             <MenuItem
-              title="POLPETTE AL SUGO"
+              title={t("polpetteAlSugo")}
               price="9.00"
-              description="Consigliamo polpette al sugo durante l'attesa"
+              description={t("polpetteAlSugoDesc")}
             />
             <MenuItem
-              title="BRACIOLINE PICCANTI AL POMODORO"
+              title={t("braciolinePiccanti")}
               price="12.00"
+              description={t("braciolinePiccantiDesc")}
             />
             <MenuItem
-              title="CARPACCIO"
+              title={t("carpaccio")}
               price="14.00"
-              description="Carne cruda condita con sedano, prezzemolo, limone, rucola, olio di oliva, pepe e grana"
+              description={t("carpaccioDesc")}
             />
             <MenuItem
-              title="BRESAOLA"
+              title={t("bresaola")}
               price="13.00"
-              description="Condita con rucola, grana, pomodorini, limone, olio di oliva, sale e pepe"
+              description={t("bresaolaDesc")}
             />
           </MenuCategory>
 
           <MenuCategory title={t("grillMeat")}>
             <MenuItem
-              title="SPIEDO MISTO"
+              title={t("spiedoMisto")}
               price="17.00"
-              description="Salsiccia, bombette, pezzetti misti, turcinieddi"
+              description={t("spiedoMistoDesc")}
             />
             <MenuItem
-              title="SPIEDO DI SALSICCIA MISTA"
+              title={t("spiedoDiSalsicciaMista")}
               price="17.00"
-              description="Bovino, suino. Ingredienti: carne bovina e suina, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description={t("spiedoDiSalsicciaMistaDesc")}
             />
             <MenuItem
-              title="SPIEDO DI BOMBETTE"
+              title={t("spiedoDiBombette")}
               price="17.00"
-              description="Prosciutto, carne macinata, bovino, suino, mozzarella, grana, aromi naturali, pane grattugiato"
+              description={t("spiedoDiBombetteDesc")}
             />
             <MenuItem
-              title="SPIEDO DI SALSICCIA A PUNTA DI COLTELLO"
+              title={t("spiedoDiSalsicciaAPuntaDiColtello")}
               price="17.00"
-              description="Ingredienti: carne bovina e suina, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description={t("spiedoDiSalsicciaAPuntaDiColtelloDesc")}
             />
             <MenuItem
-              title="SPIEDO DI BOMBETTE DI CINGHIALE"
+              title={t("spiedoDiBombetteDiCinghiale")}
               price="17.00"
-              description="Ingredienti: carne bovina e suina, pezzettini arrotolati con pancetta, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description={t("spiedoDiBombetteDiCinghialeDesc")}
             />
             <MenuItem
-              title="SPIEDO DI SALSICCIA PICCANTE"
+              title={t("spiedoDiSalsicciaPiccante")}
               price="17.00"
-              description="Ingredienti: carne bovina e suina, sale, pepe, aglio, peperoncino, aromi naturali, vino bianco e insaporitori E300"
+              description={t("spiedoDiSalsicciaPiccanteDesc")}
             />
             <MenuItem
-              title="SPIEDO DI TURCINIEDDI"
+              title={t("spiedoDiTurcinieddi")}
               price="17.00"
-              description="Ingredienti: fegato, cuore e polmone di agnello, rete, budello, sale, pepe, aglio, aromi naturali, vino bianco, insaporitori E300 e prezzemolo"
+              description={t("spiedoDiTurcinieddiDesc")}
             />
             <MenuItem
-              title="SPIEDO DI POLPA DI CASTRATO"
+              title={t("spiedoDiPolpaDiCastrato")}
               price="17.00"
-              description="Ingredienti: pezzetti di castrato, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description={t("spiedoDiPolpaDiCastratoDesc")}
             />
             <MenuItem
-              title="FIORENTINA"
+              title={t("fiorentinaGrill")}
               price="4.30"
-              description="Da kg 1 a kg 2 (prezzo all'etto)"
+              description={t("fiorentinaGrillDesc")}
             />
             <MenuItem
-              title="COSTATA DI VITELLO"
+              title={t("costataDiVitello")}
               price="4.30"
-              description="Minimo 600/800 g (prezzo all'etto)"
+              description={t("costataDiVitelloDesc")}
             />
             <MenuItem
-              title="TAGLIATA DI MANZO RUCOLA E GRANA"
+              title={t("tagliataDiManzo")}
               price="4.30"
-              description="600/800 g (prezzo all'etto)"
+              description={t("tagliataDiManzoDesc")}
             />
             <MenuItem
-              title="TAGLIATA DI LATTONE RUCOLA E GRANA"
+              title={t("tagliataDiLattoneGrill")}
               price="4.30"
-              description="600/800 g (prezzo all'etto)"
+              description={t("tagliataDiLattoneGrillDesc")}
             />
             <MenuItem
-              title="DISOSSATA DI SCOTTONE"
+              title={t("disossataDiScottoneGrill")}
               price="4.30"
-              description="Minimo 600/800 g (prezzo all'etto)"
+              description={t("disossataDiScottoneGrillDesc")}
             />
             <MenuItem
-              title="CAPICOLLO DI CINGHIALE SENZA OSSO"
+              title={t("capicolloDiCinghiale")}
               price="4.30"
-              description="Minimo 600/800 g (prezzo all'etto)"
+              description={t("capicolloDiCinghialeDesc")}
             />
             <MenuItem
-              title="AGNELLO"
+              title={t("agnello")}
               price="17.00"
+              description={t("agnelloDesc")}
             />
             <MenuItem
-              title="CASTRATO"
+              title={t("castrato")}
               price="4.30"
-              description="Minimo 600/800 g (prezzo all'etto)"
+              description={t("castratoDesc")}
             />
             <MenuItem
-              title="FILETTO"
+              title={t("filetto")}
               price="4.30"
-              description="Prezzo all'etto"
+              description={t("filettoDesc")}
             />
           </MenuCategory>
 
           <MenuCategory title={t("sideDishes")}>
             <MenuItem
-              title="INSALATA VERDE"
+              title={t("insalataVerde")}
               price="5.00"
+              description={t("insalataVerdeDesc")}
             />
             <MenuItem
-              title="PATATE FRITTE-CHIPS CROCCANTI"
+              title={t("patateFritteChips")}
               price="5.00"
-              description="FRESCHE *"
+              description={t("patateFritteChipsDesc")}
             />
             <MenuItem
-              title="PATATE FRITTE-STICK"
+              title={t("patateFritteStick")}
               price="5.00"
-              description="FRESCHE *"
+              description={t("patateFritteStickDesc")}
             />
             <MenuItem
-              title="PATATE AL FORNO"
+              title={t("patateAlForno")}
               price="5.00"
+              description={t("patateAlFornoDesc")}
             />
             <MenuItem
-              title="POLPETTE FRITTE"
+              title={t("polpetteFritteSide")}
               price="8.00"
+              description={t("polpetteFritteSideDesc")}
             />
             <MenuItem
-              title="POLPETTE AL SUGO"
+              title={t("polpetteAlSugoSide")}
               price="9.00"
+              description={t("polpetteAlSugoSideDesc")}
             />
             <MenuItem
-              title="VERDURE GRIGLIATE"
+              title={t("verdureGrigliate")}
               price="6.00"
-              description="peperoni, melanzane, zucchine"
+              description={t("verdureGrigliateDesc")}
             />
             <div className="mt-4 text-sm text-muted-foreground italic">
-              * in mancanza del fresco prodotto congelato
+              {t("freshProduct")}
             </div>
           </MenuCategory>
 
@@ -226,11 +233,11 @@ const Index = () => {
                   <Wine size={20} className="mr-2" /> {t("wines")}
                 </h3>
                 <MenuItem
-                  title="Vino locale in caraffa (500 ml)"
+                  title={t("vinoLocalCaraffa")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="Vino (1 lt)"
+                  title={t("vinoLitro")}
                   price="8.00"
                 />
               </div>
@@ -240,19 +247,19 @@ const Index = () => {
                   <Beer size={20} className="mr-2" /> {t("beers")}
                 </h3>
                 <MenuItem
-                  title="Birra Dreher (33 cl)"
+                  title={t("birraDreherSmall")}
                   price="2.00"
                 />
                 <MenuItem
-                  title="Birra Dreher (66 cl)"
+                  title={t("birraDreherLarge")}
                   price="3.00"
                 />
                 <MenuItem
-                  title="Birra Heineken (33 cl)"
+                  title={t("birraHeinekenSmall")}
                   price="3.00"
                 />
                 <MenuItem
-                  title="Birra Heineken (66 cl)"
+                  title={t("birraHeinekenLarge")}
                   price="4.00"
                 />
               </div>
@@ -264,19 +271,19 @@ const Index = () => {
                   <CupSoda size={20} className="mr-2" /> {t("softDrinks")}
                 </h3>
                 <MenuItem
-                  title="Aranciata (33 cl)"
+                  title={t("aranciataSmall")}
                   price="2.00"
                 />
                 <MenuItem
-                  title="Aranciata (1 lt)"
+                  title={t("aranciataLarge")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="Coca Cola (33 cl)"
+                  title={t("cocaColaSmall")}
                   price="2.00"
                 />
                 <MenuItem
-                  title="Coca Cola (1 lt)"
+                  title={t("cocaColaLarge")}
                   price="4.00"
                 />
               </div>
@@ -286,11 +293,11 @@ const Index = () => {
                   <GlassWater size={20} className="mr-2" /> {t("water")}
                 </h3>
                 <MenuItem
-                  title="Acqua (0,5 lt)"
+                  title={t("acquaSmall")}
                   price="1.00"
                 />
                 <MenuItem
-                  title="Acqua Naturale/Frizzante (1,0 lt)"
+                  title={t("acquaLarge")}
                   price="2.00"
                 />
               </div>
@@ -302,55 +309,55 @@ const Index = () => {
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <MenuItem
-                  title="SORBETTO AL LIMONE"
+                  title={t("sorbettoAlLimone")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="TARTUFO BIANCO"
+                  title={t("tartufoBianco")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="TARTUFO NERO"
+                  title={t("tartufoNero")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="COPPA VANIGLIA E CIOCCOLATO"
+                  title={t("coppaVanigliaECioccolato")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="SPUMONE"
+                  title={t("spumone")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="TIRAMISU"
+                  title={t("tiramisu")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="TORTA ALLA CREMA"
+                  title={t("tortaAllaCrma")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="TORTA AL CIOCCOLATO"
+                  title={t("tortaAlCioccolato")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="TORTA AL LIMONE"
+                  title={t("tortaAlLimone")}
                   price="4.00"
                 />
                 <MenuItem
-                  title="CREMA DI LIMONCELLO"
+                  title={t("cremaDiLimoncello")}
                   price="2.00"
                 />
                 <MenuItem
-                  title="CREMA DI CAFFE"
+                  title={t("cremaDiCaffe")}
                   price="2.00"
                 />
                 <MenuItem
-                  title="AMARO"
+                  title={t("amaro")}
                   price="2.00"
                 />
                 <MenuItem
-                  title="GRAPPA"
+                  title={t("grappa")}
                   price="3.00"
                 />
                 <MenuItem
