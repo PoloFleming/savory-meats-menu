@@ -1,4 +1,3 @@
-
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -7,6 +6,7 @@ import { LanguageSelector } from "@/components/LanguageSelector";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTranslation } from "@/translations";
 import { Beer, Fish, GlassWater, Utensils, Wine, CupSoda, Beef } from "lucide-react";
+import { DessertsSection } from "@/components/DessertsSection";
 
 const Index = () => {
   const { language } = useLanguage();
@@ -302,71 +302,9 @@ const Index = () => {
                 />
               </div>
             </div>
-
-            <div className="mt-6">
-              <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <Utensils size={20} className="mr-2" /> {t("desserts")}
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <MenuItem
-                  title={t("sorbettoAlLimone")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("tartufoBianco")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("tartufoNero")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("coppaVanigliaECioccolato")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("spumone")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("tiramisu")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("tortaAllaCrma")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("tortaAlCioccolato")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("tortaAlLimone")}
-                  price="4.00"
-                />
-                <MenuItem
-                  title={t("cremaDiLimoncello")}
-                  price="2.00"
-                />
-                <MenuItem
-                  title={t("cremaDiCaffe")}
-                  price="2.00"
-                />
-                <MenuItem
-                  title={t("amaro")}
-                  price="2.00"
-                />
-                <MenuItem
-                  title={t("grappa")}
-                  price="3.00"
-                />
-                <MenuItem
-                  title={t("coverCharge")}
-                  price="2.00"
-                />
-              </div>
-            </div>
           </MenuCategory>
+
+          <DessertsSection />
 
           <div className="mt-12 py-8 border-t border-muted">
             <div className="text-center">
