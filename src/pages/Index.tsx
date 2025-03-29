@@ -227,30 +227,6 @@ const Index = () => {
                   title="Vino (1 lt)"
                   price="8.00"
                 />
-                <MenuItem
-                  title="Primitivo di Manduria"
-                  price="24.00"
-                />
-                <MenuItem
-                  title="Negroamaro"
-                  price="22.00"
-                />
-                <MenuItem
-                  title="Nero di Troia"
-                  price="26.00"
-                />
-                <MenuItem
-                  title="Fiano di Puglia"
-                  price="20.00"
-                />
-                <MenuItem
-                  title="Chardonnay Salento"
-                  price="22.00"
-                />
-                <MenuItem
-                  title="Verdeca"
-                  price="21.00"
-                />
               </div>
               
               <div>
