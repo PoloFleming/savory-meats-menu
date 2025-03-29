@@ -31,7 +31,7 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
             <h2 className="restaurant-subtitle">da Pasqualino</h2>
           </div>
           <div className="mt-4 flex justify-center md:justify-end w-full">
-            <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10">
+            <div className="restaurant-tagline relative overflow-hidden before:absolute before:inset-0 before:bg-pasqualino-red/20 before:blur-sm before:-z-10 max-w-xs">
               <p className="restaurant-tagline z-10 relative font-bold tracking-wider text-terracotta px-4 py-1">DEGUSTAZIONI DI CARNI ALLA BRACE</p>
             </div>
           </div>
