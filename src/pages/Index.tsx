@@ -1,3 +1,4 @@
+
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuHeader } from "@/components/MenuHeader";
 import { MenuItem } from "@/components/MenuItem";
@@ -89,7 +90,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-        <MenuCategory title="Carne alla Brace">
+          <MenuCategory title="Carne alla Brace">
             <MenuItem
               title="SPIEDO MISTO"
               price="17.00"
@@ -176,7 +177,7 @@ const Index = () => {
             />
           </MenuCategory>
 
-        <MenuCategory title="Contorni">
+          <MenuCategory title="Contorni">
             <MenuItem
               title="INSALATA VERDE"
               price="5.00"
@@ -213,135 +214,136 @@ const Index = () => {
             </div>
           </MenuCategory>
 
-        <MenuCategory title="Bevande">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <Wine size={20} className="mr-2" /> Vini
-              </h3>
-              <MenuItem
-                title="Vino locale in caraffa"
-                price="500 ml"
-              />
-              <MenuItem
-                title="Vino"
-                price="1 lt"
-              />
-              <MenuItem
-                title="Primitivo di Manduria"
-                price="24.00"
-              />
-              <MenuItem
-                title="Negroamaro"
-                price="22.00"
-              />
-              <MenuItem
-                title="Nero di Troia"
-                price="26.00"
-              />
-              <MenuItem
-                title="Fiano di Puglia"
-                price="20.00"
-              />
-              <MenuItem
-                title="Chardonnay Salento"
-                price="22.00"
-              />
-              <MenuItem
-                title="Verdeca"
-                price="21.00"
-              />
+          <MenuCategory title="Bevande">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
+                  <Wine size={20} className="mr-2" /> Vini
+                </h3>
+                <MenuItem
+                  title="Vino locale in caraffa"
+                  price="500 ml"
+                />
+                <MenuItem
+                  title="Vino"
+                  price="1 lt"
+                />
+                <MenuItem
+                  title="Primitivo di Manduria"
+                  price="24.00"
+                />
+                <MenuItem
+                  title="Negroamaro"
+                  price="22.00"
+                />
+                <MenuItem
+                  title="Nero di Troia"
+                  price="26.00"
+                />
+                <MenuItem
+                  title="Fiano di Puglia"
+                  price="20.00"
+                />
+                <MenuItem
+                  title="Chardonnay Salento"
+                  price="22.00"
+                />
+                <MenuItem
+                  title="Verdeca"
+                  price="21.00"
+                />
+              </div>
+              
+              <div>
+                <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
+                  <Beer size={20} className="mr-2" /> Birre
+                </h3>
+                <MenuItem
+                  title="Birra Dreher"
+                  price="33 cl/66 cl"
+                />
+                <MenuItem
+                  title="Birra Heineken"
+                  price="33 cl/66 cl"
+                />
+              </div>
             </div>
-            
-            <div>
+
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
+                  <CupSoda size={20} className="mr-2" /> Bevande Analcoliche
+                </h3>
+                <MenuItem
+                  title="Aranciata"
+                  price="33 cl/1 lt"
+                />
+                <MenuItem
+                  title="Coca Cola"
+                  price="33 cl/1 lt"
+                />
+              </div>
+              
+              <div>
+                <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
+                  <GlassWater size={20} className="mr-2" /> Acqua
+                </h3>
+                <MenuItem
+                  title="Acqua"
+                  price="0,5 lt"
+                />
+                <MenuItem
+                  title="Acqua Naturale/Frizzante"
+                  price="1,0 lt"
+                />
+              </div>
+            </div>
+
+            <div className="mt-6">
               <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <Beer size={20} className="mr-2" /> Birre
+                <Coffee size={20} className="mr-2" /> Caffè e Digestivi
               </h3>
-              <MenuItem
-                title="Birra Dreher"
-                price="33 cl/66 cl"
-              />
-              <MenuItem
-                title="Birra Heineken"
-                price="33 cl/66 cl"
-              />
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <MenuItem
+                  title="Espresso"
+                  price="1.50"
+                />
+                <MenuItem
+                  title="Amaro del Capo"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="Limoncello"
+                  price="3.50"
+                />
+              </div>
+            </div>
+          </MenuCategory>
+
+          <div className="mt-12 py-8 border-t border-muted">
+            <div className="text-center">
+              <h2 className="font-serif text-2xl text-terracotta mb-2">Orari di Apertura</h2>
+              <p className="text-muted-foreground">
+                Da Martedì a Domenica<br />
+                12:30 - 14:30 | 19:30 - 22:30<br />
+                Lunedì: Chiuso
+              </p>
+            </div>
+
+            <div className="text-center mt-6">
+              <h2 className="font-serif text-2xl text-terracotta mb-2">Dove Siamo</h2>
+              <p className="text-muted-foreground">
+                Via del Mare, 42<br />
+                Torre Santa Sabina, Carovigno (BR)<br />
+                Tel: +39 123 456 7890
+              </p>
             </div>
           </div>
 
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <CupSoda size={20} className="mr-2" /> Bevande Analcoliche
-              </h3>
-              <MenuItem
-                title="Aranciata"
-                price="33 cl/1 lt"
-              />
-              <MenuItem
-                title="Coca Cola"
-                price="33 cl/1 lt"
-              />
-            </div>
-            
-            <div>
-              <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-                <GlassWater size={20} className="mr-2" /> Acqua
-              </h3>
-              <MenuItem
-                title="Acqua"
-                price="0,5 lt"
-              />
-              <MenuItem
-                title="Acqua Naturale/Frizzante"
-                price="1,0 lt"
-              />
-            </div>
-          </div>
-
-          <div className="mt-6">
-            <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
-              <Coffee size={20} className="mr-2" /> Caffè e Digestivi
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <MenuItem
-                title="Espresso"
-                price="1.50"
-              />
-              <MenuItem
-                title="Amaro del Capo"
-                price="4.00"
-              />
-              <MenuItem
-                title="Limoncello"
-                price="3.50"
-              />
-            </div>
-          </div>
-        </MenuCategory>
-
-        <div className="mt-12 py-8 border-t border-muted">
-          <div className="text-center">
-            <h2 className="font-serif text-2xl text-terracotta mb-2">Orari di Apertura</h2>
-            <p className="text-muted-foreground">
-              Da Martedì a Domenica<br />
-              12:30 - 14:30 | 19:30 - 22:30<br />
-              Lunedì: Chiuso
-            </p>
-          </div>
-
-          <div className="text-center mt-6">
-            <h2 className="font-serif text-2xl text-terracotta mb-2">Dove Siamo</h2>
-            <p className="text-muted-foreground">
-              Via del Mare, 42<br />
-              Torre Santa Sabina, Carovigno (BR)<br />
-              Tel: +39 123 456 7890
-            </p>
-          </div>
+          <footer className="footer">
+            <p>© {new Date().getFullYear()} La Braceria di Santa Sabina | Tutti i diritti riservati</p>
+          </footer>
         </div>
-
-        <footer className="footer">
-          <p>© {new Date().getFullYear()} La Braceria di Santa Sabina | Tutti i diritti riservati</p>
-        </footer>
       </div>
     </div>
   );
