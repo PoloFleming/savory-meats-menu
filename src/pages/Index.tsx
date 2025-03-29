@@ -208,6 +208,9 @@ const Index = () => {
               price="6.00"
               description="peperoni, melanzane, zucchine"
             />
+            <div className="mt-4 text-sm text-muted-foreground italic">
+              * in mancanza del fresco prodotto congelato
+            </div>
           </MenuCategory>
 
           <MenuCategory title="Bevande">
