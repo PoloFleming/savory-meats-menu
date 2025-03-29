@@ -99,7 +99,7 @@ const Index = () => {
             <MenuItem
               title="SPIEDO DI SALSICCIA MISTA"
               price="17.00"
-              description="Bovino, suino, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description="Bovino, suino. Ingredienti: carne bovina e suina, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
             />
             <MenuItem
               title="SPIEDO DI BOMBETTE"
@@ -109,27 +109,71 @@ const Index = () => {
             <MenuItem
               title="SPIEDO DI SALSICCIA A PUNTA DI COLTELLO"
               price="17.00"
-              description="Carne bovina e suina, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description="Ingredienti: carne bovina e suina, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
             />
             <MenuItem
               title="SPIEDO DI BOMBETTE DI CINGHIALE"
               price="17.00"
-              description="Carne bovina e suina, pezzettini arrotolati con pancetta, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description="Ingredienti: carne bovina e suina, pezzettini arrotolati con pancetta, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
             />
             <MenuItem
               title="SPIEDO DI SALSICCIA PICCANTE"
               price="17.00"
-              description="Carne bovina e suina, sale, pepe, aglio, peperoncino, aromi naturali, vino bianco e insaporitori E300"
+              description="Ingredienti: carne bovina e suina, sale, pepe, aglio, peperoncino, aromi naturali, vino bianco e insaporitori E300"
             />
             <MenuItem
               title="SPIEDO DI TURCINIEDDI"
               price="17.00"
-              description="Fegato, cuore e polmone di agnello, rete, budello, sale, pepe, aglio, aromi naturali, vino bianco, insaporitori E300 e prezzemolo"
+              description="Ingredienti: fegato, cuore e polmone di agnello, rete, budello, sale, pepe, aglio, aromi naturali, vino bianco, insaporitori E300 e prezzemolo"
             />
             <MenuItem
               title="SPIEDO DI POLPA DI CASTRATO"
               price="17.00"
-              description="Pezzetti di castrato, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+              description="Ingredienti: pezzetti di castrato, sale, pepe, aglio, aromi naturali, vino bianco e insaporitori E300"
+            />
+            <MenuItem
+              title="FIORENTINA"
+              price="4.30"
+              description="Da kg 1 a kg 2 (prezzo all'etto)"
+            />
+            <MenuItem
+              title="COSTATA DI VITELLO"
+              price="4.30"
+              description="Minimo 600/800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="TAGLIATA DI MANZO RUCOLA E GRANA"
+              price="4.30"
+              description="600/800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="TAGLIATA DI LATTONE RUCOLA E GRANA"
+              price="4.30"
+              description="600/800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="DISOSSATA DI SCOTTONE"
+              price="4.30"
+              description="Minimo 600/800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="CAPICOLLO DI CINGHIALE SENZA OSSO"
+              price="4.30"
+              description="Minimo 600/800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="AGNELLO"
+              price="17.00"
+            />
+            <MenuItem
+              title="CASTRATO"
+              price="4.30"
+              description="Minimo 600/800 g (prezzo all'etto)"
+            />
+            <MenuItem
+              title="FILETTO"
+              price="4.30"
+              description="Prezzo all'etto"
             />
           </MenuCategory>
 
