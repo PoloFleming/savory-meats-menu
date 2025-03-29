@@ -1,4 +1,3 @@
-
 import { cn } from "@/lib/utils";
 
 interface RestaurantHeaderProps {
@@ -10,9 +9,9 @@ export const RestaurantHeader = ({ className }: RestaurantHeaderProps) => {
     <header className={cn("relative overflow-hidden py-8 md:py-12", className)}>
       {/* Colorful background elements */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pasqualino-cream via-amber/20 to-terracotta/30 opacity-80" />
-        <div className="absolute top-0 left-0 w-1/3 h-full bg-olive/10 rounded-full blur-3xl -translate-x-1/2" />
-        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-amber/10 rounded-full blur-3xl translate-x-1/4" />
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pasqualino-cream via-pasqualino-cream/90 to-terracotta/20 opacity-90" />
+        <div className="absolute top-0 left-0 w-1/3 h-full bg-pasqualino-cream/30 rounded-full blur-3xl -translate-x-1/2" />
+        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-pasqualino-cream/20 rounded-full blur-3xl translate-x-1/4" />
       </div>
 
       {/* Main content with logo on left */}
