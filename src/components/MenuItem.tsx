@@ -13,7 +13,7 @@ export const MenuItem = ({ title, price, description, className }: MenuItemProps
     <div className={cn("menu-item", className)}>
       <div className="menu-item-title">
         <span>{title}</span>
-        <span className="menu-item-price">€{price}</span>
+        <span className="menu-item-price">{price.includes("€") ? price : `€${price}`}</span>
       </div>
       {description && <p className="menu-item-description">{description}</p>}
     </div>

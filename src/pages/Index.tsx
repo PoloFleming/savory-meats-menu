@@ -220,12 +220,12 @@ const Index = () => {
                   <Wine size={20} className="mr-2" /> Vini
                 </h3>
                 <MenuItem
-                  title="Vino locale in caraffa"
-                  price="500 ml"
+                  title="Vino locale in caraffa (500 ml)"
+                  price="4.00"
                 />
                 <MenuItem
-                  title="Vino"
-                  price="1 lt"
+                  title="Vino (1 lt)"
+                  price="8.00"
                 />
                 <MenuItem
                   title="Primitivo di Manduria"
@@ -258,12 +258,20 @@ const Index = () => {
                   <Beer size={20} className="mr-2" /> Birre
                 </h3>
                 <MenuItem
-                  title="Birra Dreher"
-                  price="33 cl/66 cl"
+                  title="Birra Dreher (33 cl)"
+                  price="2.00"
                 />
                 <MenuItem
-                  title="Birra Heineken"
-                  price="33 cl/66 cl"
+                  title="Birra Dreher (66 cl)"
+                  price="3.00"
+                />
+                <MenuItem
+                  title="Birra Heineken (33 cl)"
+                  price="3.00"
+                />
+                <MenuItem
+                  title="Birra Heineken (66 cl)"
+                  price="4.00"
                 />
               </div>
             </div>
@@ -274,12 +282,20 @@ const Index = () => {
                   <CupSoda size={20} className="mr-2" /> Bevande Analcoliche
                 </h3>
                 <MenuItem
-                  title="Aranciata"
-                  price="33 cl/1 lt"
+                  title="Aranciata (33 cl)"
+                  price="2.00"
                 />
                 <MenuItem
-                  title="Coca Cola"
-                  price="33 cl/1 lt"
+                  title="Aranciata (1 lt)"
+                  price="4.00"
+                />
+                <MenuItem
+                  title="Coca Cola (33 cl)"
+                  price="2.00"
+                />
+                <MenuItem
+                  title="Coca Cola (1 lt)"
+                  price="4.00"
                 />
               </div>
               
@@ -288,12 +304,12 @@ const Index = () => {
                   <GlassWater size={20} className="mr-2" /> Acqua
                 </h3>
                 <MenuItem
-                  title="Acqua"
-                  price="0,5 lt"
+                  title="Acqua (0,5 lt)"
+                  price="1.00"
                 />
                 <MenuItem
-                  title="Acqua Naturale/Frizzante"
-                  price="1,0 lt"
+                  title="Acqua Naturale/Frizzante (1,0 lt)"
+                  price="2.00"
                 />
               </div>
             </div>
