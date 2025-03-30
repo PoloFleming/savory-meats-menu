@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { LanguageProvider } from "./context/LanguageContext";
-import { EditBlocker } from "./components/EditBlocker";
 
 const queryClient = new QueryClient();
 
@@ -17,7 +16,6 @@ const App = () => (
       <LanguageProvider>
         <Toaster />
         <Sonner />
-        <EditBlocker />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
