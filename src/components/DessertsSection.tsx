@@ -10,7 +10,7 @@ export const DessertsSection = () => {
   const t = useTranslation(language);
 
   return (
-    <MenuCategory title={t("desserts")} smallCaps={true} className="pt-8 pb-4">
+    <MenuCategory title={t("desserts")} className="pt-8 pb-4">
       <div className="flex justify-center mb-6">
         <IceCream size={32} className="text-terracotta" />
       </div>
