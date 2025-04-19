@@ -30,7 +30,7 @@ const Index = () => {
           <MenuCategory title={t("specialties")}>
             <MenuItem
               title={t("monteBianco")}
-              price="4.30"
+              price="6.00"
               description={t("monteBiancoDesc")}
             />
             <MenuItem
@@ -40,17 +40,17 @@ const Index = () => {
             />
             <MenuItem
               title={t("disossataDiScottona")}
-              price="4.30"
+              price="6.00"
               description={t("disossataDiScottonaDesc")}
             />
             <MenuItem
               title={t("fiorentina")}
-              price="4.30"
+              price="6.00"
               description={t("fiorentinaDesc")}
             />
             <MenuItem
               title={t("tagliataDiLattone")}
-              price="4.30"
+              price="6.00"
               description={t("tagliataDiLattoneDesc")}
             />
             <MenuItem
@@ -140,47 +140,47 @@ const Index = () => {
             />
             <MenuItem
               title={t("fiorentinaGrill")}
-              price="4.30"
+              price="6.00"
               description={t("fiorentinaGrillDesc")}
             />
             <MenuItem
               title={t("costataDiVitello")}
-              price="4.30"
+              price="6.00"
               description={t("costataDiVitelloDesc")}
             />
             <MenuItem
               title={t("tagliataDiManzo")}
-              price="4.30"
+              price="6.00"
               description={t("tagliataDiManzoDesc")}
             />
             <MenuItem
               title={t("tagliataDiLattoneGrill")}
-              price="4.30"
+              price="6.00"
               description={t("tagliataDiLattoneGrillDesc")}
             />
             <MenuItem
               title={t("disossataDiScottoneGrill")}
-              price="4.30"
+              price="6.00"
               description={t("disossataDiScottoneGrillDesc")}
             />
             <MenuItem
               title={t("capicolloDiCinghiale")}
-              price="4.30"
+              price="6.00"
               description={t("capicolloDiCinghialeDesc")}
             />
             <MenuItem
               title={t("agnello")}
-              price="23.00"
+              price="40.00"
               description={t("agnelloDesc")}
             />
             <MenuItem
               title={t("castrato")}
-              price="4.30"
+              price="6.00"
               description={t("castratoDesc")}
             />
             <MenuItem
               title={t("filetto")}
-              price="4.30"
+              price="40.00"
               description={t("filettoDesc")}
             />
           </MenuCategory>
