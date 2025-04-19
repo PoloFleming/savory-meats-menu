@@ -37,21 +37,25 @@ const Index = () => {
               title={t("nuvoleDiFiletto")}
               price="40.00"
               description={t("nuvoleDiFilettoDesc")}
+              priceDisclosure="€6.00/100g"
             />
             <MenuItem
               title={t("disossataDiScottona")}
               price="6.00"
               description={t("disossataDiScottonaDesc")}
+              priceDisclosure="€6.00/100g"
             />
             <MenuItem
               title={t("fiorentina")}
               price="6.00"
               description={t("fiorentinaDesc")}
+              priceDisclosure="€6.00/100g"
             />
             <MenuItem
               title={t("tagliataDiLattone")}
               price="6.00"
               description={t("tagliataDiLattoneDesc")}
+              priceDisclosure="€6.00/100g"
             />
             <MenuItem
               title={t("mrBean")}
