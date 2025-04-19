@@ -47,7 +47,7 @@ export const GrillSection = () => {
       />
       <MenuItem
         title={t("spiedoDiPolpaDiCastrato")}
-        price="22.00"
+        price="23.00"
         description={t("spiedoDiPolpaDiCastratoDesc")}
       />
       <MenuItem
