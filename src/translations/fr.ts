@@ -63,7 +63,7 @@ export const frenchTranslations: Translations = {
   fiorentinaGrill: "STEAK À LA FLORENTINE",
   fiorentinaGrillDesc: "De 1 kg à 2 kg (prix pour 100g)",
   costataDiVitello: "CÔTE DE VEAU",
-  costataDiVitelloDesc: "Minimum 600/800 g (prix pour 100g)",
+  costataDiVitelloDesc: "De 1 kg à 2 kg (prix pour 100g)",
   tagliataDiManzo: "TRANCHES DE BŒUF AVEC ROQUETTE ET PARMESAN",
   tagliataDiManzoDesc: "600/800 g (prix pour 100g)",
   tagliataDiLattoneGrill: "TRANCHES DE VEAU DE LAIT AVEC ROQUETTE ET PARMESAN",

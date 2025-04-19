@@ -1,4 +1,3 @@
-
 import { Translations } from './types';
 
 export const spanishTranslations: Translations = {
@@ -64,7 +63,7 @@ export const spanishTranslations: Translations = {
   fiorentinaGrill: "BISTEC T-BONE",
   fiorentinaGrillDesc: "De 1 kg a 2 kg (precio por 100g)",
   costataDiVitello: "CHULETÓN DE TERNERA",
-  costataDiVitelloDesc: "Mínimo 600/800 g (precio por 100g)",
+  costataDiVitelloDesc: "De 1 kg a 2 kg (precio por 100g)",
   tagliataDiManzo: "FILETE DE SCOTTONA CON RÚCULA Y PARMESANO",
   tagliataDiManzoDesc: "600/800 g (precio por 100g)",
   tagliataDiLattoneGrill: "FILETE DE TERNERA LACTANTE CON RÚCULA Y PARMESANO",

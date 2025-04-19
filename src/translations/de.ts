@@ -63,7 +63,7 @@ export const germanTranslations: Translations = {
   fiorentinaGrill: "FLORENTINER STEAK",
   fiorentinaGrillDesc: "Von 1 kg bis 2 kg (Preis pro 100g)",
   costataDiVitello: "KALBSRIPPENSTÜCK",
-  costataDiVitelloDesc: "Mindestens 600/800 g (Preis pro 100g)",
+  costataDiVitelloDesc: "Von 1 kg bis 2 kg (Preis pro 100g)",
   tagliataDiManzo: "GESCHNITTENES RINDFLEISCH MIT RUCOLA UND PARMESAN",
   tagliataDiManzoDesc: "600/800 g (Preis pro 100g)",
   tagliataDiLattoneGrill: "GESCHNITTENES MILCHKALB MIT RUCOLA UND PARMESAN",
