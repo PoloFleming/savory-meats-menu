@@ -100,42 +100,42 @@ const Index = () => {
           <MenuCategory title={t("grillMeat")}>
             <MenuItem
               title={t("spiedoMisto")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoMistoDesc")}
             />
             <MenuItem
               title={t("spiedoDiSalsicciaMista")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiSalsicciaMistaDesc")}
             />
             <MenuItem
               title={t("spiedoDiBombette")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiBombetteDesc")}
             />
             <MenuItem
               title={t("spiedoDiSalsicciaAPuntaDiColtello")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiSalsicciaAPuntaDiColtelloDesc")}
             />
             <MenuItem
               title={t("spiedoDiBombetteDiCinghiale")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiBombetteDiCinghialeDesc")}
             />
             <MenuItem
               title={t("spiedoDiSalsicciaPiccante")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiSalsicciaPiccanteDesc")}
             />
             <MenuItem
               title={t("spiedoDiTurcinieddi")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiTurcinieddiDesc")}
             />
             <MenuItem
               title={t("spiedoDiPolpaDiCastrato")}
-              price="17.00"
+              price="23.00"
               description={t("spiedoDiPolpaDiCastratoDesc")}
             />
             <MenuItem
@@ -170,7 +170,7 @@ const Index = () => {
             />
             <MenuItem
               title={t("agnello")}
-              price="17.00"
+              price="23.00"
               description={t("agnelloDesc")}
             />
             <MenuItem
