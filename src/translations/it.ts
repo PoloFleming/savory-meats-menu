@@ -63,7 +63,7 @@ export const italianTranslations: Translations = {
   fiorentinaGrill: "FIORENTINA",
   fiorentinaGrillDesc: "Da kg 1 a kg 2 (prezzo all'etto)",
   costataDiVitello: "COSTATA DI VITELLO",
-  costataDiVitelloDesc: "Minimo 600/800 g (prezzo all'etto)",
+  costataDiVitelloDesc: "Da kg 1 a kg 2 (prezzo all'etto)",
   tagliataDiManzo: "TAGLIATA DI SCOTTONA RUCOLA E GRANA",
   tagliataDiManzoDesc: "600/800 g (prezzo all'etto)",
   tagliataDiLattoneGrill: "TAGLIATA DI LATTONE RUCOLA E GRANA",
