@@ -32,7 +32,7 @@ export const italianTranslations: Translations = {
   mrBeanDesc: "Cotoletta di lattone con cascata di patate fritte",
   // Appetizers
   trisAssaggio: "TRIS ASSAGGIO",
-  trisAssaggioDesc: "Polpette fritte al sugo e bracioline",
+  trisAssaggioDesc: "Polpette fritte, al sugo e bracioline",
   polpetteFritte: "POLPETTE FRITTE",
   polpetteFritteDesc: "Consigliamo polpette fritte durante l'attesa",
   polpetteAlSugo: "POLPETTE AL SUGO",
