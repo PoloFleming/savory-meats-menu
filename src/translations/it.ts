@@ -68,7 +68,7 @@ export const italianTranslations: Translations = {
   tagliataDiManzoDesc: "600/800 g (prezzo all'etto)",
   tagliataDiLattoneGrill: "TAGLIATA DI LATTONE RUCOLA E GRANA",
   tagliataDiLattoneGrillDesc: "600/800 g (prezzo all'etto)",
-  disossataDiScottoneGrill: "DISOSSATA DI SCOTTONE",
+  disossataDiScottoneGrill: "DISOSSATA DI SCOTTONA",
   disossataDiScottoneGrillDesc: "Minimo 600/800 g (prezzo all'etto)",
   capicolloDiCinghiale: "CAPICOLLO DI CINGHIALE SENZA OSSO",
   capicolloDiCinghialeDesc: "Minimo 600/800 g (prezzo all'etto)",
