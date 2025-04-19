@@ -17,51 +17,47 @@ export const DessertsSection = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <MenuItem
           title={t("sorbettoAlLimone")}
-          price="4.00"
+          price="5.00"
         />
         <MenuItem
           title={t("tartufoBianco")}
-          price="4.00"
+          price="5.00"
         />
         <MenuItem
           title={t("tartufoNero")}
-          price="4.00"
+          price="5.00"
         />
         <MenuItem
-          title={t("coppaVanigliaECioccolato")}
-          price="4.00"
-        />
-        <MenuItem
-          title={t("spumone")}
-          price="4.00"
+          title={t("cremaCatalana")}
+          price="6.00"
         />
         <MenuItem
           title={t("tiramisu")}
-          price="4.00"
+          price="6.00"
         />
         <MenuItem
-          title={t("tortaAllaCrma")}
-          price="4.00"
+          title={t("pannaCotta")}
+          price="6.00"
         />
         <MenuItem
-          title={t("tortaAlCioccolato")}
-          price="4.00"
+          title={t("tortaFillyAllaCrema")}
+          price="6.00"
         />
         <MenuItem
-          title={t("tortaAlLimone")}
-          price="4.00"
+          title={t("tortaFillyAlCioccolato")}
+          price="6.00"
         />
         <MenuItem
           title={t("cremaDiLimoncello")}
-          price="2.00"
+          price="3.00"
         />
         <MenuItem
           title={t("cremaDiCaffe")}
-          price="2.00"
+          price="3.00"
         />
         <MenuItem
           title={t("amaro")}
-          price="2.00"
+          price="3.00"
         />
         <MenuItem
           title={t("grappa")}
@@ -75,3 +71,4 @@ export const DessertsSection = () => {
     </MenuCategory>
   );
 };
+
