@@ -35,7 +35,7 @@ const Index = () => {
             />
             <MenuItem
               title={t("nuvoleDiFiletto")}
-              price="33.00"
+              price="40.00"
               description={t("nuvoleDiFilettoDesc")}
             />
             <MenuItem
@@ -55,7 +55,7 @@ const Index = () => {
             />
             <MenuItem
               title={t("mrBean")}
-              price="18.00"
+              price="23.00"
               description={t("mrBeanDesc")}
             />
           </MenuCategory>
@@ -67,33 +67,28 @@ const Index = () => {
 
             <MenuItem
               title={t("trisAssaggio")}
-              price="15.00"
+              price="24.00"
               description={t("trisAssaggioDesc")}
             />
             <MenuItem
               title={t("polpetteFritte")}
-              price="8.00"
+              price="12.00"
               description={t("polpetteFritteDesc")}
             />
             <MenuItem
               title={t("polpetteAlSugo")}
-              price="9.00"
+              price="13.00"
               description={t("polpetteAlSugoDesc")}
             />
             <MenuItem
               title={t("braciolinePiccanti")}
-              price="12.00"
+              price="18.00"
               description={t("braciolinePiccantiDesc")}
             />
             <MenuItem
               title={t("carpaccio")}
-              price="14.00"
+              price="30.00"
               description={t("carpaccioDesc")}
-            />
-            <MenuItem
-              title={t("bresaola")}
-              price="13.00"
-              description={t("bresaolaDesc")}
             />
           </MenuCategory>
 
