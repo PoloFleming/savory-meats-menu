@@ -13,7 +13,6 @@ export const SideDishesSection = () => {
       <MenuItem
         title={t("insalataVerde")}
         price="4.00"
-        description={t("insalataVerdeDesc")}
       />
       <MenuItem
         title={t("patateFritteChips")}
@@ -28,17 +27,14 @@ export const SideDishesSection = () => {
       <MenuItem
         title={t("patateAlForno")}
         price="7.00"
-        description={t("patateAlFornoDesc")}
       />
       <MenuItem
         title={t("polpetteFritteSide")}
         price="12.00"
-        description={t("polpetteFritteSideDesc")}
       />
       <MenuItem
         title={t("polpetteAlSugoSide")}
         price="13.00"
-        description={t("polpetteAlSugoSideDesc")}
       />
       <MenuItem
         title={t("verdureGrigliate")}
