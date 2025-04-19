@@ -62,7 +62,7 @@ export const englishTranslations: Translations = {
   spiedoDiPolpaDiCastratoDesc: "Ingredients: pieces of mutton, salt, pepper, garlic, natural aromas, white wine, and E300 flavorings",
   fiorentinaGrill: "T-BONE STEAK",
   fiorentinaGrillDesc: "From 1 kg to 2 kg (price per 100g)",
-  costataDiVitello: "VEAL RIBEYE",
+  costataDiVitello: "VEAL STEAK",
   costataDiVitelloDesc: "Minimum 600/800 g (price per 100g)",
   tagliataDiManzo: "SLICED BEEF WITH ARUGULA AND PARMESAN",
   tagliataDiManzoDesc: "600/800 g (price per 100g)",
