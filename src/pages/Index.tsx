@@ -135,7 +135,7 @@ const Index = () => {
             />
             <MenuItem
               title={t("spiedoDiPolpaDiCastrato")}
-              price="23.00"
+              price="22.00"
               description={t("spiedoDiPolpaDiCastratoDesc")}
             />
             <MenuItem
