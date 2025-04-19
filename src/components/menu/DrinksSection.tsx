@@ -1,4 +1,3 @@
-
 import { MenuCategory } from "@/components/MenuCategory";
 import { MenuItem } from "@/components/MenuItem";
 import { useLanguage } from "@/context/LanguageContext";
@@ -76,10 +75,6 @@ export const DrinksSection = () => {
           <h3 className="font-serif text-xl text-olive mb-4 flex items-center">
             <GlassWater size={20} className="mr-2" /> {t("water")}
           </h3>
-          <MenuItem
-            title={t("acquaSmall")}
-            price="1.00"
-          />
           <MenuItem
             title={t("acquaLarge")}
             price="2.50"
