@@ -64,7 +64,7 @@ export const englishTranslations: Translations = {
   fiorentinaGrillDesc: "From 1 kg to 2 kg (price per 100g)",
   costataDiVitello: "VEAL STEAK",
   costataDiVitelloDesc: "Minimum 600/800 g (price per 100g)",
-  tagliataDiManzo: "SLICED BEEF WITH ARUGULA AND PARMESAN",
+  tagliataDiManzo: "SLICED SCOTTONA WITH ARUGULA AND PARMESAN",
   tagliataDiManzoDesc: "600/800 g (price per 100g)",
   tagliataDiLattoneGrill: "SLICED MILK-FED VEAL WITH ARUGULA AND PARMESAN",
   tagliataDiLattoneGrillDesc: "600/800 g (price per 100g)",
