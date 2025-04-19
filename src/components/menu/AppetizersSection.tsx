@@ -33,7 +33,6 @@ export const AppetizersSection = () => {
       <MenuItem
         title={t("braciolinePiccanti")}
         price="18.00"
-        description={t("braciolinePiccantiDesc")}
       />
       <MenuItem
         title={t("carpaccio")}
