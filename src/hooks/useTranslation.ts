@@ -1,15 +1,16 @@
-
 import { AllTranslations } from '../translations/types';
 import { italianTranslations } from '../translations/it';
 import { englishTranslations } from '../translations/en';
 import { germanTranslations } from '../translations/de';
 import { frenchTranslations } from '../translations/fr';
+import { spanishTranslations } from '../translations/es';
 
 const translations: AllTranslations = {
   it: italianTranslations,
   en: englishTranslations,
   de: germanTranslations,
   fr: frenchTranslations,
+  es: spanishTranslations, // Add Spanish translations
 };
 
 export const useTranslation = (language: string) => {
