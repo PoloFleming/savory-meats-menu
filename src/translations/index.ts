@@ -609,3 +609,16 @@ export const translations: AllTranslations = {
     grappa: "GRAPPA"
   }
 };
+
+// Add the useTranslation hook
+export const useTranslation = (language: string) => {
+  return (key: TranslationKey): string => {
+    // If the language doesn't exist, default to English
+    if (!translations[language]) {
+      return translations.en[key] || key;
+    }
+    
+    // If the key doesn't exist for the language, try English, then fall back to the key itself
+    return translations[language][key] || translations.en[key] || key;
+  };
+};
