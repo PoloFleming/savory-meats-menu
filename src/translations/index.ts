@@ -1,4 +1,3 @@
-
 type TranslationKey = 
   | "restaurantDescription"
   | "specialties"
@@ -110,12 +109,11 @@ type TranslationKey =
   | "sorbettoAlLimone"
   | "tartufoBianco"
   | "tartufoNero"
-  | "coppaVanigliaECioccolato"
-  | "spumone"
+  | "cremaCatalana"
+  | "pannaCotta"
   | "tiramisu"
-  | "tortaAllaCrma"
-  | "tortaAlCioccolato"
-  | "tortaAlLimone"
+  | "tortaFillyAllaCrema"
+  | "tortaFillyAlCioccolato"
   | "cremaDiLimoncello"
   | "cremaDiCaffe"
   | "amaro"
@@ -241,12 +239,11 @@ export const translations: AllTranslations = {
     sorbettoAlLimone: "SORBETTO AL LIMONE",
     tartufoBianco: "TARTUFO BIANCO",
     tartufoNero: "TARTUFO NERO",
-    coppaVanigliaECioccolato: "COPPA VANIGLIA E CIOCCOLATO",
-    spumone: "SPUMONE",
+    cremaCatalana: "CREMA CATALANA",
+    pannaCotta: "PANNA COTTA",
     tiramisu: "TIRAMISU",
-    tortaAllaCrma: "TORTA ALLA CREMA",
-    tortaAlCioccolato: "TORTA AL CIOCCOLATO",
-    tortaAlLimone: "TORTA AL LIMONE",
+    tortaFillyAllaCrema: "TORTA FILLY ALLA CREMA",
+    tortaFillyAlCioccolato: "TORTA FILLY AL CIOCCOLATO",
     cremaDiLimoncello: "CREMA DI LIMONCELLO",
     cremaDiCaffe: "CREMA DI CAFFE",
     amaro: "AMARO",
@@ -363,12 +360,11 @@ export const translations: AllTranslations = {
     sorbettoAlLimone: "LEMON SORBET",
     tartufoBianco: "WHITE TRUFFLE ICE CREAM",
     tartufoNero: "DARK TRUFFLE ICE CREAM",
-    coppaVanigliaECioccolato: "VANILLA AND CHOCOLATE CUP",
-    spumone: "SPUMONE",
+    cremaCatalana: "CATALAN CREAM",
+    pannaCotta: "PANNA COTTA",
     tiramisu: "TIRAMISU",
-    tortaAllaCrma: "CREAM CAKE",
-    tortaAlCioccolato: "CHOCOLATE CAKE",
-    tortaAlLimone: "LEMON CAKE",
+    tortaFillyAllaCrema: "FILLY CREAM CAKE",
+    tortaFillyAlCioccolato: "FILLY CHOCOLATE CAKE",
     cremaDiLimoncello: "LIMONCELLO CREAM",
     cremaDiCaffe: "COFFEE CREAM",
     amaro: "BITTER LIQUEUR",
@@ -485,12 +481,11 @@ export const translations: AllTranslations = {
     sorbettoAlLimone: "ZITRONENSORBET",
     tartufoBianco: "WEISSER TRÜFFEL-EISBECHER",
     tartufoNero: "DUNKLER TRÜFFEL-EISBECHER",
-    coppaVanigliaECioccolato: "VANILLE- UND SCHOKOLADENBECHER",
-    spumone: "SPUMONE-EIS",
+    cremaCatalana: "KATALANISCHE CREME",
+    pannaCotta: "PANNA COTTA",
     tiramisu: "TIRAMISU",
-    tortaAllaCrma: "SAHNEKUCHEN",
-    tortaAlCioccolato: "SCHOKOLADENKUCHEN",
-    tortaAlLimone: "ZITRONENKUCHEN",
+    tortaFillyAllaCrema: "FILLY CREMEKUCHEN",
+    tortaFillyAlCioccolato: "FILLY SCHOKOLADENKUCHEN",
     cremaDiLimoncello: "LIMONCELLO-CREME",
     cremaDiCaffe: "KAFFEECREME",
     amaro: "KRÄUTERLIKÖR",
@@ -607,12 +602,11 @@ export const translations: AllTranslations = {
     sorbettoAlLimone: "SORBET AU CITRON",
     tartufoBianco: "TRUFFE GLACÉE BLANCHE",
     tartufoNero: "TRUFFE GLACÉE NOIRE",
-    coppaVanigliaECioccolato: "COUPE VANILLE ET CHOCOLAT",
-    spumone: "SPUMONE",
+    cremaCatalana: "CRÈME CATALANE",
+    pannaCotta: "PANNA COTTA",
     tiramisu: "TIRAMISU",
-    tortaAllaCrma: "GÂTEAU À LA CRÈME",
-    tortaAlCioccolato: "GÂTEAU AU CHOCOLAT",
-    tortaAlLimone: "GÂTEAU AU CITRON",
+    tortaFillyAllaCrema: "GÂTEAU FILLY À LA CRÈME",
+    tortaFillyAlCioccolato: "GÂTEAU FILLY AU CHOCOLAT",
     cremaDiLimoncello: "CRÈME DE LIMONCELLO",
     cremaDiCaffe: "CRÈME DE CAFÉ",
     amaro: "AMARO",
@@ -729,12 +723,11 @@ export const translations: AllTranslations = {
     sorbettoAlLimone: "SORBETE DE LIMÓN",
     tartufoBianco: "TRUFA BLANCA HELADA",
     tartufoNero: "TRUFA NEGRA HELADA",
-    coppaVanigliaECioccolato: "COPA DE VAINILLA Y CHOCOLATE",
-    spumone: "SPUMONE",
+    cremaCatalana: "CREMA CATALANA",
+    pannaCotta: "PANNA COTTA",
     tiramisu: "TIRAMISÚ",
-    tortaAllaCrma: "TARTA DE CREMA",
-    tortaAlCioccolato: "TARTA DE CHOCOLATE",
-    tortaAlLimone: "TARTA DE LIMÓN",
+    tortaFillyAllaCrema: "TARTA FILLY DE CREMA",
+    tortaFillyAlCioccolato: "TARTA FILLY DE CHOCOLATE",
     cremaDiLimoncello: "CREMA DE LIMONCELLO",
     cremaDiCaffe: "CREMA DE CAFÉ",
     amaro: "AMARO",
