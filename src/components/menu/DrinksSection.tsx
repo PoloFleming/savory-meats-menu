@@ -39,7 +39,7 @@ export const DrinksSection = () => {
           />
           <MenuItem
             title={t("birraHeinekenSmall")}
-            price="5.00"
+            price="4.00"
           />
           <MenuItem
             title={t("birraHeinekenLarge")}
