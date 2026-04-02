@@ -30,11 +30,11 @@ export const SideDishesSection = () => {
       />
       <MenuItem
         title={t("polpetteFritteSide")}
-        price="12.00"
+        price="13.00"
       />
       <MenuItem
         title={t("polpetteAlSugoSide")}
-        price="13.00"
+        price="14.00"
       />
       <MenuItem
         title={t("verdureGrigliate")}
