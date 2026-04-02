@@ -12,7 +12,7 @@ export const SpecialtiesSection = () => {
     <MenuCategory title={t("specialties")}>
       <MenuItem
         title={t("monteBianco")}
-        price="6.00"
+        price="6.50"
         description={t("monteBiancoDesc")}
         priceDisclosure="/100g"
       />
@@ -23,25 +23,25 @@ export const SpecialtiesSection = () => {
       />
       <MenuItem
         title={t("disossataDiScottona")}
-        price="6.00"
+        price="6.50"
         description={t("disossataDiScottonaDesc")}
         priceDisclosure="/100g"
       />
       <MenuItem
         title={t("fiorentina")}
-        price="6.00"
+        price="6.50"
         description={t("fiorentinaDesc")}
         priceDisclosure="/100g"
       />
       <MenuItem
         title={t("tagliataDiLattone")}
-        price="6.00"
+        price="6.50"
         description={t("tagliataDiLattoneDesc")}
         priceDisclosure="/100g"
       />
       <MenuItem
         title={t("mrBean")}
-        price="23.00"
+        price="24.00"
         description={t("mrBeanDesc")}
       />
     </MenuCategory>
