@@ -17,11 +17,11 @@ export const DrinksSection = () => {
           </h3>
           <MenuItem
             title={t("vinoLocalCaraffa")}
-            price="6.50"
+            price="7.00"
           />
           <MenuItem
             title={t("vinoLitro")}
-            price="12.00"
+            price="13.00"
           />
         </div>
         
@@ -35,15 +35,15 @@ export const DrinksSection = () => {
           />
           <MenuItem
             title={t("birraDreherLarge")}
-            price="4.00"
+            price="5.00"
           />
           <MenuItem
             title={t("birraHeinekenSmall")}
-            price="4.00"
+            price="5.00"
           />
           <MenuItem
             title={t("birraHeinekenLarge")}
-            price="5.00"
+            price="6.00"
           />
         </div>
       </div>
@@ -77,7 +77,7 @@ export const DrinksSection = () => {
           </h3>
           <MenuItem
             title={t("acquaLarge")}
-            price="2.50"
+            price="3.00"
           />
         </div>
       </div>
