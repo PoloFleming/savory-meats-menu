@@ -17,26 +17,26 @@ export const AppetizersSection = () => {
 
       <MenuItem
         title={t("trisAssaggio")}
-        price="24.00"
+        price="25.00"
         description={t("trisAssaggioDesc")}
       />
       <MenuItem
         title={t("polpetteFritte")}
-        price="12.00"
+        price="13.00"
         description={t("polpetteFritteDesc")}
       />
       <MenuItem
         title={t("polpetteAlSugo")}
-        price="13.00"
+        price="14.00"
         description={t("polpetteAlSugoDesc")}
       />
       <MenuItem
         title={t("braciolinePiccanti")}
-        price="18.00"
+        price="20.00"
       />
       <MenuItem
         title={t("carpaccio")}
-        price="30.00"
+        price="35.00"
         description={t("carpaccioDesc")}
       />
     </MenuCategory>
